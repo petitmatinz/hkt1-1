@@ -1,0 +1,64 @@
+.footer {
+  background-color: #f9f9f9;
+  color: #666;
+  padding: 7px 0;
+  text-align: left;
+  border-top: 1px solid #e4e4e4;
+  font-size: 14px;
+  position: relative; /* fixed -> relative */
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer-top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-top a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-separator {
+  width: 80%;
+  margin: 0 auto;
+  border: 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 0 auto; /* 추가적인 공간을 확보하기 위해 margin-top 수정 */
+  width: 80%;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.footer-column p strong {
+  font-size: 18px;
+  color: #000;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e4e4e4;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}

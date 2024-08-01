@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between; /* 추가하여 Footer가 하단에 위치하도록 설정 */
+}
+
+header, .slider {
+  padding: 20px;
+}
